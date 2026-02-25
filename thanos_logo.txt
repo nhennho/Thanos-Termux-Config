@@ -1,0 +1,8 @@
+      .      .
+     / \    / \
+    | \e[1;35m*\e[0m \  / \e[1;32m*\e[0m |   <-- Power Stone (Purple) & Time Stone (Green)
+    |    \/    |
+     \  /\e[1;34m--\e[0m\  /    <-- Space Stone (Blue)
+      \/    \/
+   [ \e[1;33mPOWER STONE\e[0m ] <-- Mind Stone (Yellow)
+

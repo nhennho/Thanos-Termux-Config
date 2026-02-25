@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/data/data/com.termux/files/home/illust_116151199_20260128_173916.png' 

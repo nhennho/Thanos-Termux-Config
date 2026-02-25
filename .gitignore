@@ -1,0 +1,12 @@
+# Ignore all your photos
+*.png
+*.jpg
+
+# Ignore Android storage
+storage/
+
+# Temporarily ignore editor files
+*.swp
+*~
+# Config
+.config/gh/

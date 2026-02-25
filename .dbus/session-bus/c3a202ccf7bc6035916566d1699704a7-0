@@ -1,0 +1,8 @@
+# This file allows processes on the machine with id c3a202ccf7bc6035916566d1699704a7 using 
+# display :0 to find the D-Bus session bus with the below address.
+# If the DBUS_SESSION_BUS_ADDRESS environment variable is set, it will
+# be used rather than this file.
+# See "man dbus-launch" for more details.
+DBUS_SESSION_BUS_ADDRESS='unix:path=/data/data/com.termux/files/usr/tmp/dbus-AyMCKKFtn3,guid=9b20540489d9cc44efed5db569991313'
+DBUS_SESSION_BUS_PID=15661
+DBUS_SESSION_BUS_WINDOWID=2097153
