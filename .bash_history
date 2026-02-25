@@ -162,3 +162,50 @@ nano check_energy.sh
 nano snap.sh
 nano thanos_logo.txt
 exit
+# 1. Chọn cách gộp dữ liệu
+git config pull.rebase false
+# 2. Kéo dữ liệu từ web về để đồng bộ (Fix lỗi Rejected)
+git pull origin main
+# 3. Thêm tất cả file mới (bao gồm setup.sh và README đã sửa)
+git add .
+# 4. Lưu thay đổi
+git commit -m "Fix README formatting and add setup.sh"
+# 5. Đẩy lên vũ trụ
+git push origin main
+git config pull.rebase false
+git pull origin main
+git add .
+git commit -m "Save local changes before merging"
+git config pull.rebase false
+git pull origin main --allow-unrelated-histories
+git push origin main
+nano README.md
+git add .
+git commit -m "Save local changes before merging"
+git config pull.rebase false
+git pull origin main --allow-unrelated-histories
+git push origin main
+nano README.md
+git add .
+git commit -m "Save local changes before merging"
+git config pull.rebase false
+git pull origin main --allow-unrelated-histories
+git push origin main
+nano README.md
+git add .
+git commit -m "Save local changes before merging"
+git config pull.rebase false
+git pull origin main --allow-unrelated-histories
+git push origin main
+nano README.md
+git add .
+git commit -m "Save local changes before merging"
+git pull origin main --allow-unrelated-histories
+git push origin main
+nano README.md
+git add .
+git commit -m "Save local changes before merging"
+git pull origin main --allow-unrelated-histories
+git push origin main
+pkg install curl -y && bash <(curl -s https://raw.githubusercontent.com/nhennho/Thanos-Termux-Config/main/setup.sh)
+exit
