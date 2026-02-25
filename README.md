@@ -10,8 +10,9 @@ git clone https://github.com/nhennho/Thanos-Termux-Config.git
 cd Thanos-Termux-Config
 cp .bashrc thanos_logo.txt check_energy.sh destiny.sh ~
 source ~/.bashrc
-
+```bash
 ## Direct Installation
 ``` bash
 
 curl -O https://raw.githubusercontent.com/nhennho/thanos-termux-config/main/setup.sh && chmod +x setup.sh && ./setup.sh
+```bash
