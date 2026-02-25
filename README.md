@@ -1,13 +1,12 @@
 # Thanos Termux Config 🌌
 This repository contains my custom Termux environment.
 
-## 🚀 Quick Installation
+# 🚀 Quick Installation
 This command is only needed to install everything:
 ```bash
-<<<<<<< HEAD
 pkg install curl -y && bash <(curl -s https://raw.githubusercontent.com/nhennho/Thanos-Termux-Config/main/setup.sh)
 
-## Manual installation
+# Manual installation
 ```bash
 
 pkg update
@@ -21,7 +20,7 @@ source ~/.bashrc
 
 
 ```bash
-## Direct Installation
+# Direct Installation
 ``` bash
 
 curl -O https://raw.githubusercontent.com/nhennho/thanos-termux-config/main/setup.sh && chmod +x setup.sh && ./setup.sh
