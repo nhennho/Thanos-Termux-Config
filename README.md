@@ -7,7 +7,8 @@ git clone [https://github.com/nhennho/Thanos-Termux-Config.git](https://github.c
 cd Thanos-Termux-Config
 cp .bashrc thanos_logo.txt check_energy.sh destiny.sh ~
 source ~/.bashrc
-## 🛠 System Requirements & Installation
+
+## System Requirements & Installation
 
 Before proceeding, you need to install the core packages using the following command:
 
