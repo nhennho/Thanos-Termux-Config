@@ -7,26 +7,22 @@ This command is only needed to install everything:
 <<<<<<< HEAD
 pkg install curl -y && bash <(curl -s https://raw.githubusercontent.com/nhennho/Thanos-Termux-Config/main/setup.sh)
 
-### Manual installation
+## Manual installation
 ```bash
-=======
+
 pkg update
 pkg upgrade -y
 pkg install git gh nano proot-distro x11-repo termux-desktop-xfce mtools -y
->>>>>>> 8a00b9a2e82a56f5169d4e56dc5164df9fbce2ae
 git clone https://github.com/nhennho/Thanos-Termux-Config.git
 cd Thanos-Termux-Config
 cp .bashrc thanos_logo.txt check_energy.sh destiny.sh snap.sh ~
 chmod +x ~/destiny.sh ~/check_energy.sh ~/snap.sh
 source ~/.bashrc
-<<<<<<< HEAD
 
 
-=======
 ```bash
 ## Direct Installation
 ``` bash
 
 curl -O https://raw.githubusercontent.com/nhennho/thanos-termux-config/main/setup.sh && chmod +x setup.sh && ./setup.sh
 ```bash
->>>>>>> 8a00b9a2e82a56f5169d4e56dc5164df9fbce2ae
