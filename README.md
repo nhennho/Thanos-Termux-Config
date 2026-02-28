@@ -1,10 +1,11 @@
 # Thanos Termux Config 🌌
 This repository contains my custom Termux environment.
 
-## 🚀 Quick Installation
-This command is only needed to install everything:
+## 🚀 Installation 
+
 ```bash
-pkg install curl -y && bash <(curl -s https://raw.githubusercontent.com/nhennho/Thanos-Termux-Config/main/setup.sh)
+git clone https://github.com/nhennho/Thanos-Termux-Config.git
+cd Thanos-Termux-Config
 ```
 ## How to use (requires Termux:API)
 ### Check battery level on Android 
